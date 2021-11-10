@@ -7,13 +7,13 @@ The Environmental Laboratory of the Engineer Research and Development Center (ER
 ClearWater consists of several components that are designed to leverage existing hydrologic and hydraulic (H&H) models:
 
 * Water quality kinetics and vegetation simulation modules
-	* NSM: Nutrient Simulation Module (NSM-I and NSM-II)
-	* TSM: Temperature Simulation Module
-	* GSM: General Constituent Simulation Module
-	* CSM: Contaminant Simulation Module
-	* MSM: Mercury Simulation Module
-	* SSM: Solids Simulation Module
-	* RVSM: Riparian Vegetation Simulation Module
+    * NSM: Nutrient Simulation Module (NSM-I and NSM-II)
+    * TSM: Temperature Simulation Module
+    * GSM: General Constituent Simulation Module
+    * CSM: Contaminant Simulation Module
+    * MSM: Mercury Simulation Module
+    * SSM: Solids Simulation Module
+    * RVSM: Riparian Vegetation Simulation Module
 * A water quality engine that computes the transport (advection and diffusion) of heat and mass across the watershed
 * Data visualization and reporting capabilities
 * A water quality framework that integrates the water quality modules, water quality engine, existing H&H models, initial and boundary condition data, output data, and a user interface (Jupyter notebook) to form a comprehensive, integrated, adaptable, and customizable environmental modeling and analysis system.
@@ -35,11 +35,11 @@ More information can be found here: https://github.com/EnvironmentalSystems/CE-Q
 
 ## HEC-RAS Water Quality Model
 
-* Which version of HEC-RAS should I use for water quality modeling? HEC-RAS Version 5.0.7 contains the latest features and bug fixes. We are also working on a new release of water quality capabilities in Version 6.0. 
+* **Which version of HEC-RAS should I use for water quality modeling?** HEC-RAS Version 5.0.7 contains the latest features and bug fixes. We are also working on a new release of water quality capabilities in Version 6.0. 
     * https://github.com/HydrologicEngineeringCenter/hec-downloads/releases/download/1.0.7/HEC-RAS_507_Without_Examples_Setup.exe
-* Can steady-flow water quality be simulated using HEC-RAS? Water quality simulations in HEC-RAS require first running the unsteady flow simulation, not the steady flow simulation. To simulate "steady flow" conditions, you would need to input a constant-flow time series into the model, but this would still be considered an "unsteady" flow.
-* What background do I need for water quality modeling? Water quality modeling requires a significant background in hydrology, hydraulics, water quality, and various other fields. If you haven't already taken one or two courses in water quality modeling, we recommend seeking out training and additional references to supplement your work. We have provided a list of recommended references below.
-* Can HEC-RAS simulate stratified conditions in reservoirs? No. HEC-RAS is capable of simulating 1D (longitudinally varying) water quality in unstratified river channels. If you need to simulate stratified conditions, we recommend CE-QUAL-W2 (2D reservoir hydrodynamics and water quality model) or HEC-ResSim (1D reservoir operations model).
+* **Can steady-flow water quality be simulated using HEC-RAS?** Water quality simulations in HEC-RAS require first running the unsteady flow simulation, not the steady flow simulation. To simulate "steady flow" conditions, you would need to input a constant-flow time series into the model, but this would still be considered an "unsteady" flow.
+* **What background do I need for water quality modeling?** Water quality modeling requires a significant background in hydrology, hydraulics, water quality, and various other fields. If you haven't already taken one or two courses in water quality modeling, we recommend seeking out training and additional references to supplement your work. We have provided a list of recommended references below.
+* **Can HEC-RAS simulate stratified conditions in reservoirs?** No. HEC-RAS is capable of simulating 1D (longitudinally varying) water quality in unstratified river channels. If you need to simulate stratified conditions, we recommend CE-QUAL-W2 (2D reservoir hydrodynamics and water quality model) or HEC-ResSim (1D reservoir operations model).
 
 ## HEC-ResSim Water Quality Model
 
